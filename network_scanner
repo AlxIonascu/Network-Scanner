@@ -41,5 +41,5 @@ def print_result(results_list):
 
 
 option = get_argument()
-scan_result = scan(option.iprange)
+scan_result = scan(option.target)
 print_result(scan_result)
